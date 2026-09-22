@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # Load the trained model
-model = tf.keras.models.load_model("temperature_rnn.keras")
+model = tf.keras.models.load_model("temperature_rnn(1).keras")
 
 # Title
 st.title("Next Temperature Prediction")
